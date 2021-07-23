@@ -65,7 +65,6 @@ img{
     top: -48px;
     left: 0px;
     height: 328px;
-    /* width: 800px; */
     transition: all 500ms;
 }
 .card:hover img{
