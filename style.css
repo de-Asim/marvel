@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:&display=swap');
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    /* background-color: black; */
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    /* border: 1px solid red; */
+    height: 280px;
+    width: 500px;
+    border-radius: 20px;
+    background:linear-gradient(to bottom right,rgb(218, 7, 7),rgb(90, 7, 199));
+    text-align: center;
+}
+.text{
+    position: absolute;
+    color: white;
+    text-align: left;
+    opacity: 0;
+    margin-top: 45px;
+    margin-left: 100px;
+    width: 200px;
+    transition: margin, opacity, 500ms;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 110%;
+}
+p{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 0.9 rem;
+    line-height: 110%;
+    
+}
+.read{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 7px 10px;
+    margin-top: 10px;
+    background-color:white;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: black;
+}
+.read:hover{
+    background-color: transparent;
+    color: white;
+}
+img{
+    position: relative;
+    top: -48px;
+    left: 0px;
+    height: 328px;
+    /* width: 800px; */
+    transition: all 500ms;
+}
+.card:hover img{
+    top: -120px;
+    left: 150px;
+    height: 400px;
+}
+.card:hover .text{
+    opacity: 1;
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+}
