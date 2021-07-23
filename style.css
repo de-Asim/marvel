@@ -79,3 +79,24 @@ img{
     height: 100px;
     margin-left: 30px;
 }
+@media screen and (max-width: 724px) {
+    body {
+      /* background-color: lightgreen; */
+    }
+    .card{
+        height: 300px;
+        width: 300px;
+        transition: all 500ms;
+    }
+    img{
+        top: -28px;
+    }
+    .card:hover{
+        height: 600px;
+    }
+    .card:hover img{
+        height: 328px;
+        top: 273px;
+        left: 0px;
+    }
+  }
