@@ -17,9 +17,12 @@ body{
     height: 280px;
     width: 500px;
     border-radius: 20px;
-    background:linear-gradient(to bottom right,rgb(218, 7, 7),rgb(90, 7, 199));
     text-align: center;
+    margin: 20px;
 }
+#captainMarvel{background:linear-gradient(to bottom right,rgb(218, 7, 7),rgb(90, 7, 199));}
+#blackPanther{background:linear-gradient(to bottom right,black,rgb(71, 71, 71));}
+
 .text{
     position: absolute;
     color: white;
